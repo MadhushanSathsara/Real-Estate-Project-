@@ -1,0 +1,153 @@
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  align-items: center;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  text-align: center;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.grid {
+  display: grid;
+}
+
+.gap-8 {
+  gap: 2rem;
+}
+
+.deal-card {
+  height: 350px;
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 0.75rem;
+  overflow: hidden;
+}
+
+.relative {
+  position: relative;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.object-cover {
+  object-fit: cover;
+}
+
+.rounded-t-xl {
+  border-top-left-radius: 0.75rem;
+  border-top-right-radius: 0.75rem;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.top-0 {
+  top: 0;
+}
+
+.right-0 {
+  right: 0;
+}
+
+.p-4 {
+  padding: 1rem;
+  font-size: 15px;
+}
+
+.text-white {
+  color: white;
+}
+
+.deal-features {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+ 
+}
+
+.feature-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+}
+
+.mt-1 {
+  margin-top: 0.25rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.gap-1 {
+  gap: 0.25rem;
+}
+
+.bg-blue-500 {
+  background-color: #4299E1;
+}
+
+.text-white {
+  color: white;
+}
+
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.view-more-container {
+  display: flex;
+  justify-content: center; 
+  padding: 1rem; 
+}
+
+.view {
+  padding: 0.625rem 1.25rem; 
+  background-color: #900a42; 
+  border-radius: 0.375rem; 
+  color: white; 
+  font-weight: bold; 
+  transition: background-color 0.3s ease; 
+
+}
+
+.view:hover {
+  background-color: #720836; 
+}
+
+
+
+
+@media (max-width: 768px) {
+  .view {
+    width: 100%; 
+    max-width: 300px; 
+  }
+}

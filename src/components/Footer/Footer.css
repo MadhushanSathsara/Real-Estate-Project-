@@ -1,0 +1,85 @@
+.footer-container {
+    padding: 2rem;
+    background-color: #f9f9f9;
+  }
+  
+  .download-app-section {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .download-app-section h1 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+  
+  .app-links {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  .app-link {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .app-info p {
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
+  .app-info h1 {
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+  
+  .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 2rem;
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .footer-content h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 1rem 0;
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  .footer-links li {
+    cursor: pointer;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-links li:hover {
+    color: #ccc;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .footer-description {
+    font-size: 0.9rem;
+    color: #aaa;
+    text-align: center;
+    max-width: 400px;
+  }
+  
